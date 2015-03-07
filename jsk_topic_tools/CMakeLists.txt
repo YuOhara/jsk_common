@@ -61,6 +61,8 @@ jsk_topic_tools_nodelet(src/block_nodelet.cpp
   "jsk_topic_tools/Block" "block")
 jsk_topic_tools_nodelet(src/snapshot_nodelet.cpp
   "jsk_topic_tools/Snapshot" "snapshot")
+jsk_topic_tools_nodelet(src/time_ensync_nodelet.cpp
+  "jsk_topic_tools/TimeEnsync" "time_ensync")
 jsk_topic_tools_nodelet(src/hz_measure_nodelet.cpp
   "jsk_topic_tools/HzMeasure" "hz_measure")
 jsk_topic_tools_nodelet(src/vital_checker_nodelet.cpp

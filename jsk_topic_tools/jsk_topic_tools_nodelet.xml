@@ -4,6 +4,11 @@
     <description>
     </description>
   </class>
+  <class name="jsk_topic_tools/TimeEnsync" type="jsk_topic_tools::TymeEnsync"
+         base_class_type="nodelet::Nodelet">
+    <description>
+    </description>
+  </class>
   <class name="jsk_topic_tools/VitalCheckerNodelet" type="VitalCheckerNodelet"
          base_class_type="nodelet::Nodelet">
     <description>
